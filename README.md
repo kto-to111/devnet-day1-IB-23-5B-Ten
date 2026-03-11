@@ -1,2 +1,2 @@
-## Progress 
-### Day2 A
+## Progress
+### Day2 Versions A and B
