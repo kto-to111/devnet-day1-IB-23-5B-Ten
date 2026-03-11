@@ -1,0 +1,20 @@
+* 26e4e13 (HEAD -> main) docs: Add new report for day 2
+*   44b9c54 Resolve README conflict (Day2)
+|\  
+| * dbc9026 (feature/day2-readme-B) Update README: option B
+* | e9122a2 (feature/day2-readme-A) Update README: option A
+|/  
+*   d968427 (origin/main) Merge pull request #1 from kto-to111/feature/day2-dataformats
+|\  
+| * 1702437 (origin/feature/day2-dataformats, feature/day2-dataformats) docs: add PR link to artifacts
+| * e65fd18 chore(day2): generate normalized data artifacts
+| * db81da9 test(day2): add pytest suite for data formats and schema
+| * 6f42ee2 feat(day2): add JSON schema for summary validation
+| * 5b00b1a feat(day2): add data formats generator script
+| * 0ff2bcb chore: update requirements with PyYAML for day2
+|/  
+* deafd3b docs: finalize Day 1 report and fix test assertions
+* 49e2e8b feat: add api hello script and json schema
+* 3f0331d docs: add .env template
+* 62276ac build: add requirements and pip freeze
+* 309ff71 chore: initial project structure and gitignore
