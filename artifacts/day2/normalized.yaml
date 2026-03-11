@@ -1,0 +1,12 @@
+computed:
+  title_len: 18
+student:
+  group: IB-23-5b
+  name: Тен Владимир Александрович
+  token: D1-IB-23-5b-24-0A7D
+  token_hash8: 9307fb77
+todo:
+  completed: false
+  id: 1
+  title: delectus aut autem
+  userId: 1
