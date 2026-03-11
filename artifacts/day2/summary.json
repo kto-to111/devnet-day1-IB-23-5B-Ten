@@ -1,0 +1,23 @@
+{
+  "computed": {
+    "title_len": 18
+  },
+  "generated_utc": "2026-03-11T09:13:03.678710+00:00",
+  "input": {
+    "path": "artifacts/day1/response.json",
+    "sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe"
+  },
+  "outputs": {
+    "normalized_csv_sha256": "9f2e2d3ca58bc881eadc2df15cb94e7bf3d7b2ae52ebc280044890b4548fc731",
+    "normalized_json_sha256": "647e9fcd1b4b8f9d7b42f50c1931eaf0cf714f278b031f74c1c55233614d0079",
+    "normalized_xml_sha256": "b0c29b897d2c7f5197e8212f1487dc55c37c8b6d74393e082eb93dbfec37d87e",
+    "normalized_yaml_sha256": "d7da5165628ecf344e9daa06ac12236968159d8f4298872519e81d5e49678614"
+  },
+  "schema_version": "2.0",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Тен Владимир Александрович",
+    "token": "D1-IB-23-5b-24-0A7D",
+    "token_hash8": "9307fb77"
+  }
+}
