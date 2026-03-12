@@ -1,0 +1,2 @@
+Table: USER_PLAIN
+Table: USER_HASH

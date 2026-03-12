@@ -1,0 +1,7 @@
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: Ensure Apache is installed
+      apt: name=apache2 state=present
+    - name: Change Apache port to 8081
+      lineinfile: path=/etc/apache2/ports.conf regexp='^Listen ' line='Listen 8081'
