@@ -1,0 +1,24 @@
+Started by user adminn
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BuildAppJob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/BuildAppJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kto-to111/devnet-day1-IB-23-5B-Ten # timeout=10
+Fetching upstream changes from https://github.com/kto-to111/devnet-day1-IB-23-5B-Ten
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/kto-to111/devnet-day1-IB-23-5B-Ten +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 5cca29568489be18b2d0acb47f69bcf5b3401caa (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5cca29568489be18b2d0acb47f69bcf5b3401caa # timeout=10
+Commit message: "feat: add day4 project structure, builder, schema, and tests"
+First time build. Skipping changelog.
+[BuildAppJob] $ /bin/sh -xe /tmp/jenkins13150387086664275528.sh
++ echo Starting build process...
+Starting build process...
++ echo Build completed successfully!
+Build completed successfully!
+Finished: SUCCESS
