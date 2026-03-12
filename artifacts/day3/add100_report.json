@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "d36cacff5e5ad8765cc147a40f05b7db018fb31ba1e678e8acc70beaf5cfb64c",
+  "author_used": "Тен Владимир Александрович",
+  "count_requested": 100,
+  "generated_utc": "2026-03-12T16:09:24.141872+00:00",
+  "id_range": [
+    10800,
+    10899
+  ],
+  "sample_books": [
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10800,
+      "isbn": "978-0-7068-0589-5",
+      "title": "Secured bottom-line parallelism [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10801,
+      "isbn": "978-1-255-85068-8",
+      "title": "Synergized empowering process improvement [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10802,
+      "isbn": "978-0-06-492985-1",
+      "title": "Horizontal disintermediate protocol [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10803,
+      "isbn": "978-0-585-71867-5",
+      "title": "Open-source content-based project [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10804,
+      "isbn": "978-0-520-47176-4",
+      "title": "Function-based bottom-line open architecture [9307fb77]"
+    }
+  ],
+  "tag": "9307fb77"
+}

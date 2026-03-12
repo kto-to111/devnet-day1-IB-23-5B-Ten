@@ -1,0 +1,30 @@
+{
+  "count": 4,
+  "items": [
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 5024,
+      "isbn": "978-249307fb77",
+      "title": "My DevNet Book 9307fb77"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10800,
+      "isbn": "978-0-7068-0589-5",
+      "title": "Secured bottom-line parallelism [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10801,
+      "isbn": "978-1-255-85068-8",
+      "title": "Synergized empowering process improvement [9307fb77]"
+    },
+    {
+      "author": "Тен Владимир Александрович",
+      "id": 10802,
+      "isbn": "978-0-06-492985-1",
+      "title": "Horizontal disintermediate protocol [9307fb77]"
+    }
+  ],
+  "status_code": 200
+}

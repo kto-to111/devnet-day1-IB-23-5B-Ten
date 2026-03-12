@@ -1,0 +1,60 @@
+[
+    {
+        "id": 2,
+        "title": "Linux for Networkers",
+        "author": "Cisco Systems Inc.",
+        "isbn": "000-0000000123"
+    },
+    {
+        "id": 3,
+        "title": "NetAcad: 20 Years Of Online-Learning",
+        "author": "Cisco Systems Inc.",
+        "isbn": "000-0000001123"
+    },
+    {
+        "id": 0,
+        "title": "IP Routing Fundamentals",
+        "author": "Mark A. Sportack",
+        "isbn": "978-1578700714"
+    },
+    {
+        "id": 1,
+        "title": "6767",
+        "author": "me",
+        "isbn": "978-0471778646"
+    },
+    {
+        "id": 67,
+        "title": "OpBok",
+        "author": "me"
+    },
+    {
+        "id": 6767,
+        "title": "OpBok",
+        "author": "me"
+    },
+    {
+        "id": 5024,
+        "title": "My DevNet Book 9307fb77",
+        "author": "\u0422\u0435\u043d \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "isbn": "978-249307fb77"
+    },
+    {
+        "id": 10800,
+        "title": "Secured bottom-line parallelism [9307fb77]",
+        "author": "\u0422\u0435\u043d \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "isbn": "978-0-7068-0589-5"
+    },
+    {
+        "id": 10801,
+        "title": "Synergized empowering process improvement [9307fb77]",
+        "author": "\u0422\u0435\u043d \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "isbn": "978-1-255-85068-8"
+    },
+    {
+        "id": 10802,
+        "title": "Horizontal disintermediate protocol [9307fb77]",
+        "author": "\u0422\u0435\u043d \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "isbn": "978-0-06-492985-1"
+    }
+]

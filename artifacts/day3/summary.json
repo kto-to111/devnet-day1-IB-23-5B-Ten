@@ -1,0 +1,34 @@
+{
+  "artifacts_sha256": {
+    "add100_report": "f86ebeb9bb37cf7559d3598716e56400794a10010a584f05dafc5217ca7e8bc2",
+    "books_before": "ef7b0f0e63b094bc5b6e9a30033d80946ac3f47f1b4aafedceeb2896159bf4b4",
+    "books_by_me": "70109acbb9274f0255f15ba4440260b1d896cae083e2c563d38f109ed5d2277c",
+    "books_sorted_isbn": "8f3305f5de7f7a73602120112fd0b2367d069caec80e809ca36c1dd6fad8682f",
+    "curl_get_books": "de64bae22fde03848fbeb14e2a6c661cf7e9eed12f29b574d596224bf5bf6bf9",
+    "curl_get_books_isbn": "ee1093008a5d89a75d9aaf8a2c8a7987c8841bce0c4028d02d32e78f083fb227",
+    "curl_get_books_sorted": "c9645d35cfcb0b5b756ace9c0c9909de9476d294630af0e78aedab4a5df55bba",
+    "mybook_post": "7873ea4a4d2187c18c388644d95163a11c8de5db46b6c8a0662ba63bcc5c87af",
+    "postman_collection": "94272e45d182be4df810b9c45fe674aff190374305e98541f0a28d06eab8eb70",
+    "postman_environment": "54a7d1d2acebfdcb6f8d0a905a0d2083003b7f537cd92c014f3175d0b3085d79"
+  },
+  "generated_utc": "2026-03-12T16:15:00.417387+00:00",
+  "lab": {
+    "apihost": "http://library.demo.local",
+    "must_use": {
+      "api_key_header": "X-API-KEY",
+      "books_endpoint": "http://library.demo.local/api/v1/books",
+      "login_endpoint": "http://library.demo.local/api/v1/loginViaBasic"
+    }
+  },
+  "schema_version": "3.1",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Тен Владимир Александрович",
+    "token": "D1-IB-23-5b-24-0A7D",
+    "token_hash8": "9307fb77"
+  },
+  "validation": {
+    "must_have_added_100": true,
+    "must_have_mybook_title_contains_token_hash8": true
+  }
+}

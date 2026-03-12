@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "d36cacff5e5ad8765cc147a40f05b7db018fb31ba1e678e8acc70beaf5cfb64c",
+  "request": {
+    "author": "Тен Владимир Александрович",
+    "id": 5024,
+    "isbn": "978-249307fb77",
+    "title": "My DevNet Book 9307fb77"
+  },
+  "response": {
+    "author": "Тен Владимир Александрович",
+    "id": 5024,
+    "title": "My DevNet Book 9307fb77"
+  },
+  "status_code": 200
+}

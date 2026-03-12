@@ -1,0 +1,40 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 2,
+      "isbn": "000-0000000123",
+      "title": "Linux for Networkers"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 3,
+      "isbn": "000-0000001123",
+      "title": "NetAcad: 20 Years Of Online-Learning"
+    },
+    {
+      "author": "Mark A. Sportack",
+      "id": 0,
+      "isbn": "978-1578700714",
+      "title": "IP Routing Fundamentals"
+    },
+    {
+      "author": "me",
+      "id": 1,
+      "isbn": "978-0471778646",
+      "title": "6767"
+    },
+    {
+      "author": "me",
+      "id": 67,
+      "title": "OpBok"
+    },
+    {
+      "author": "me",
+      "id": 6767,
+      "title": "OpBok"
+    }
+  ],
+  "status_code": 200
+}

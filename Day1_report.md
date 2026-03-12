@@ -21,7 +21,7 @@
 
 ## 5. Commands run (paste EXACT output)
 ### 5.1 Script run
-```text
+```json
 {
   "api": {
     "response_sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe",
