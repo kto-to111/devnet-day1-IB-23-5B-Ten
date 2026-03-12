@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "c1263d26-60c5-4e7e-94cb-c506f76d2431",
+		"name": "Day3-Library-IB-23-5B-24",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52625079",
+		"_collection_link": "https://kto-to111-7316635.postman.co/workspace/krasava's-Workspace~bdc869d0-8a67-40ac-84e8-4fb1e0e7a1cb/collection/52625079-c1263d26-60c5-4e7e-94cb-c506f76d2431?action=share&source=collection_link&creator=52625079"
+	},
+	"item": [
+		{
+			"name": "books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/v1/books",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginViaBasic",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Cisco123!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cisco",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/v1/loginViaBasic",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"loginViaBasic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "books",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "cisco|y8m1OUbHEXLW5SrG8sbtWzLIF0Bge7l2k5KYy-R-FI8",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 6767,\n  \"title\": \"OpBok\",\n  \"author\": \"me\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api_url}}/api/v1/books",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "books2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/api/v1/books?includeISBN=true&sortBy=author",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					],
+					"query": [
+						{
+							"key": "includeISBN",
+							"value": "true"
+						},
+						{
+							"key": "sortBy",
+							"value": "author"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
