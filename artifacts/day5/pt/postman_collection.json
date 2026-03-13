@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "1d5e871b-a68f-4b93-80fe-027b7b82dafe",
+		"name": "postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52625079",
+		"_collection_link": "https://kto-to111-7316635.postman.co/workspace/krasava's-Workspace~bdc869d0-8a67-40ac-84e8-4fb1e0e7a1cb/collection/52625079-1d5e871b-a68f-4b93-80fe-027b7b82dafe?action=share&source=collection_link&creator=52625079"
+	},
+	"item": [
+		{
+			"name": "serviceTicket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\": \"cisco\",\n \"password\": \"cisco123!\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api_url}}/api/v1/ticket",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ticket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "network-device",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Auth-Token",
+						"value": "{{serviceTicket}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{api_url}}/api/v1/network-device",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"network-device"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
