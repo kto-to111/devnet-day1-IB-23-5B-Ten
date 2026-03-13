@@ -1,0 +1,64 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+      "schema_version",
+      "generated_utc",
+      "student",
+      "checks",
+      "evidence_sha256",
+      "validation_passed",
+      "run"
+    ],
+    "properties": {
+      "schema_version": { "type": "string", "const": "5.0" },
+      "generated_utc": { "type": "string" },
+      "student": {
+        "type": "object",
+        "required": ["token", "token_hash8", "name", "group"],
+        "properties": {
+          "token": { "type": "string", "minLength": 10 },
+          "token_hash8": { "type": "string", "pattern": "^[a-f0-9]{8}$" },
+          "name": { "type": "string" },
+          "group": { "type": "string" }
+        }
+      },
+      "checks": {
+        "type": "object",
+        "required": [
+          "pyang_tree_ok",
+          "webex_room_ok",
+          "webex_message_ok",
+          "pt_empty_ticket",
+          "pt_version_ok"
+        ],
+        "properties": {
+          "pyang_tree_ok": { "type": "boolean" },
+          "webex_room_ok": { "type": "boolean" },
+          "webex_message_ok": { "type": "boolean" },
+          "pt_empty_ticket": { "type": "boolean" },
+          "pt_version_ok": { "type": "boolean" }
+        }
+      },
+      "evidence_sha256": {
+        "type": "object",
+        "required": [
+          "ietf_interfaces", "pyang_version", "pyang_tree",
+          "webex_me", "webex_rooms_list", "webex_room_create",
+          "webex_message_post", "webex_messages_list",
+          "pt_ext_access", "pt_service_ticket", "pt_network_devices",
+          "pt_hosts", "pt_internal_output", "pt_postman_collection",
+          "pt_postman_environment"
+        ],
+        "additionalProperties": { "type": "string" }
+      },
+      "validation_passed": { "type": "boolean", "const": true },
+      "run": {
+        "type": "object",
+        "properties": {
+          "python": { "type": "string" },
+          "platform": { "type": "string" }
+        }
+      }
+    }
+  }
