@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vN2RlZTRlYjAtMWU1MS0xMWYxLWE5ZDQtOGI2ZDc1NzllYzA2",
+            "title": "DevNet_Capstone_9307fb77",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-12T20:24:38.974Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83YzQ4OWFmMS1jYWMzLTQ4YjktYTFhZS0wYjNkNDYyYTU4YWM",
+            "created": "2026-03-12T20:24:37.915Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zODFhOTVmNS03MzQ5LTRmNWItYmMwZC0xZTFmNTc0YjQxOWE",
+            "isPublic": false,
+            "isReadOnly": false
+        },
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vNjY1ZjQ1NjAtMWU1MS0xMWYxLThmNGQtNTMwZGE1MmQ1ODFh",
+            "title": "DevNet_Capstone_9307fb77",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-12T20:23:59.422Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83YzQ4OWFmMS1jYWMzLTQ4YjktYTFhZS0wYjNkNDYyYTU4YWM",
+            "created": "2026-03-12T20:23:58.390Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zODFhOTVmNS03MzQ5LTRmNWItYmMwZC0xZTFmNTc0YjQxOWE",
+            "isPublic": false,
+            "isReadOnly": false
+        },
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vMmQ5Zjg3ZDAtMWU1MS0xMWYxLThjNjctNTFhN2JlZDlkOWQy",
+            "title": "DevNet_Capstone_9307fb77",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-12T20:22:24.261Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83YzQ4OWFmMS1jYWMzLTQ4YjktYTFhZS0wYjNkNDYyYTU4YWM",
+            "created": "2026-03-12T20:22:23.181Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zODFhOTVmNS03MzQ5LTRmNWItYmMwZC0xZTFmNTc0YjQxOWE",
+            "isPublic": false,
+            "isReadOnly": false
+        }
+    ]
+}
