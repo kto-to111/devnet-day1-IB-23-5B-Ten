@@ -1,7 +1,7 @@
 {
   "checks": {
     "ansible_port_8081": true,
-    "docker_token_in_page": false,
+    "docker_token_in_page": true,
     "docker_tokenproof": true,
     "jenkins_pipeline_has_stages": true,
     "security_db_has_tables": true
@@ -20,8 +20,8 @@
     "docker_token_proof": "613c372bdc25a729b6d1547ba54075a3d2cebbc8ced940582e6531c42a90bb28",
     "jenkins_docker_ps": "0ec6e33599495c08f338a2385a2f1755727e26acbbff23226536492ba0744687",
     "jenkins_url": "185f195598830dbc315eb3a6741f97eace245e9d9d2a7225c5da77b87f27f3fc",
-    "login_v1": "",
-    "login_v2": "",
+    "login_v1": "67f30acea7c7caadadf0e90651bd8c196f939046b9c5398cd4733a118e5e53ca",
+    "login_v2": "ef63064b8c1207eb5e70677bbcbef59e07f98696f2a604a3accecd9dfbec4d71",
     "pipeline_console": "0b65c3b4d1517de091c5bc6666bbc3340a431a33fc2bf87e3b4fb05913f4c535",
     "pipeline_script": "0bb99d3b872f8b729d3a03e375e8926ed8c0499f27097e77448d699a6b073da5",
     "ports_conf_after": "04318de8d8ad3588c063121e90ed1e511fae1c0eccc77a04cdbb8273e875f7ea",
@@ -29,17 +29,17 @@
     "signup_v2": "45c8aa8f5e375aeda003c1afbd5c6ef2400962f8c9c86073193d2883385065a2",
     "testapp_console": "abe7aa6a97a821ab03dd1f7f96270553c6b2b63c034ed5789e139dcc5def39ba"
   },
-  "generated_utc": "2026-03-13T00:08:10.453102+00:00",
+  "generated_utc": "2026-03-13T00:23:46.096252+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
   },
   "schema_version": "4.1",
   "student": {
-    "group": "",
-    "name": "",
-    "token": "",
-    "token_hash8": ""
+    "group": "IB-23-5b",
+    "name": "Тен Владимир Александрович",
+    "token": "D1-IB-23-5b-24-0A7D",
+    "token_hash8": "9307fb77"
   },
-  "validation_passed": false
+  "validation_passed": true
 }
