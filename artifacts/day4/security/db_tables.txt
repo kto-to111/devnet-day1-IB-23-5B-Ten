@@ -1,2 +1,1 @@
-Table: USER_PLAIN
-Table: USER_HASH
+[('CREATE TABLE USER_PLAIN (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT)',), ('CREATE TABLE sqlite_sequence(name,seq)',), ('CREATE TABLE USER_HASH (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password_hash TEXT)',)]
